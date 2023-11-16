@@ -29,3 +29,15 @@ a {
 a:hover {
     color: #d9534f;
 }
+
+#odinProjectButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background: url("https://www.theodinproject.com/mstile-310x310.png") center center no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
