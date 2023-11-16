@@ -1,0 +1,30 @@
+body {
+    background-color: #e0c09f; 
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #d9534f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+/*Astea două sunt furate de pe ChatGPT */
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #d9534f;
+}
