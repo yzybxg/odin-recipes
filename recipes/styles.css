@@ -1,26 +1,33 @@
+* {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
 body {
     font-family: "Times New Roman", sans-serif;
     background-color: #e0c09f;
     color: #333;
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-
-main {
-    text-align: center;
+    font-size: large;
 }
 
 header {
     background-color: #d9534f;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1 {
     color: #d9534f;
     text-align: center;
+    padding: 15px 0;
+}
+
+h2, h3 {
+    color: #d9534f;
     margin: 0;
     line-height: 1.6;
 }
@@ -28,6 +35,7 @@ h1, h2, h3 {
 img {
     width: 600px;
     height: auto;
+    padding: 15px 0 20px 0;
 }
 
 p, li {
