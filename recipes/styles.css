@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -33,7 +34,7 @@ h2, h3 {
 }
 
 img {
-    width: 600px;
+    width: 100%;
     height: auto;
     padding: 15px 0 20px 0;
 }
@@ -45,6 +46,7 @@ p, li {
 ul, ol {
     margin-bottom: 20px;
     list-style: none;
+    padding-left: 0;
 }
 
 ol ol {
