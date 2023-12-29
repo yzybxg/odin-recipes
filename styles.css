@@ -1,6 +1,7 @@
 * {
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -47,6 +48,21 @@ a:hover {
     cursor: pointer;
 }
 
+.menu-container {
+    color: #fff;
+    background-color: #e0c09f;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-container {
     display: flex;
     justify-content: center;
@@ -66,4 +82,12 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.signup {
+    margin-left: auto;
+}
+
+.login {
+    margin-left: 20px;
 }
